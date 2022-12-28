@@ -1,3 +1,18 @@
 body{
     background-color: rgb(224, 234, 245) !important;
 }
+
+.name{
+    display: block;
+    color: rgb(209, 129, 216);
+}
+/* Jumbotron */
+
+.jumb{
+    background-color: rgb(27, 26, 26) !important;
+    /* background: url("../images/picture-2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; */
+}
+
+
