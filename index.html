@@ -4,9 +4,178 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>My Portfolio</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/67362f8582.js" crossorigin="anonymous"></script>
+    <!--Custom CSS  -->
+    <link href="./css/style.css" type="text/css" rel="stylesheet">
 </head>
 <body>
-    
+    <section>
+        <!-- Navigation -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+            <div class="container">
+                <a class="navbar-brand" href="#">My Portfolio</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+            
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                    <a class="nav-link" href="#">Welcome <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="#">Work</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                </form>
+                </div>
+            </div>
+          </nav>
+
+
+          <!-- Welcome Section- Jumbotron full width header -->
+          <header class="jumbotron jumbotron-fluid bg-secondary">
+            <div class="container">
+                <div class="col-log-11 mx-auto text-white">
+                    <h1 class="display-4">Hello, world!</h1>
+                    <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+                    <hr class="my-4">
+                    <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+                    <a class="btn btn-primary btn-lg" href="#" role="button">Call to Action </a>
+                </div>  
+            </div>
+          </header>
+
+          <!-- Work section -->
+          <div class="container">
+            <div class="row d-flex justify-content-around mt-8">
+                <h1 class="my-4">My Work</h1>
+            </div>
+            
+            
+            <div class="row justify-content-between text-center mt-8">
+                <div class=" col-lg-6 col-md-6 col-sm-4 mx-auto mb-4">
+                    <div class="card">
+                        <img class="card-img-top" src="https://lh3.googleusercontent.com/ogw/AOh-ky2wQYYyChTBXmB_CTVZF2CqIKmad5prNg6IVi7B=s32-c-mo">
+                        <div class="card-body">
+                        <h4 class="card-title">Project</h4>
+                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                        </div>
+                        <div class="card-footer">
+                            <a href="#" class="btn btn-primary">Find out more!</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class=" col-lg-6 col-md-6 col-sm-4 mx-auto mb-4">
+                    <div class="card">
+                        <img class="card-img-top" src="https://lh3.googleusercontent.com/ogw/AOh-ky2wQYYyChTBXmB_CTVZF2CqIKmad5prNg6IVi7B=s32-c-mo">
+                        <div class="card-body">
+                        <h4 class="card-title">Project</h4>
+                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                        </div>
+                        <div class="card-footer">
+                            <a href="#" class="btn btn-primary">Find out more!</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row justify-content-between text-center mt-8">
+                <div class=" col-lg-6 col-md-6 col-sm-4 mx-auto mb-4">
+                    <div class="card">
+                        <img class="card-img-top" src="https://lh3.googleusercontent.com/ogw/AOh-ky2wQYYyChTBXmB_CTVZF2CqIKmad5prNg6IVi7B=s32-c-mo">
+                        <div class="card-body">
+                        <h4 class="card-title">Project</h4>
+                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                        </div>
+                        <div class="card-footer">
+                            <a href="#" class="btn btn-primary">Find out more!</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class=" col-lg-6 col-md-6 col-sm-4 mx-auto mb-4">
+                    <div class="card">
+                        <img class="card-img-top" src="https://lh3.googleusercontent.com/ogw/AOh-ky2wQYYyChTBXmB_CTVZF2CqIKmad5prNg6IVi7B=s32-c-mo">
+                        <div class="card-body">
+                        <h4 class="card-title">Project</h4>
+                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                        </div>
+                        <div class="card-footer">
+                            <a href="#" class="btn btn-primary">Find out more!</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+          <!-- About me -->
+
+          <section>
+            <div class="container bg-secondary">
+                <div class="row align-items-center">
+                    <div class="col-lg-5 order-lg-2">
+                        <img class="img-fluid rounded-circle" src="./images/Screenshot (6).png">
+                    </div>
+                
+                    <div class="col-lg-7 order-lg-1 text-white">
+                        <div class="p-5">
+                            <h2 class="display-4">About Me</h2>
+                            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                            <a href="" class="btn btn-outline-light">
+                                <i class="fa-solid fa-download"></i>
+                                Download my Resume
+                            </a>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+          </section>
+
+          <!-- Footer -->
+          <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 h-100 text-center mx-auto">
+                        <ul class="list-inline mb-0">
+                            <li class="list-inline-item mr-3">
+                                <a href="#">
+                                    <i class="fab fa-linkedin fa-3x fa-fw"></i>
+                                </a>
+                            </li>
+
+                            <li class="list-inline-item mr-3">
+                                <a href="#">
+                                    <i class="fab fa-twitter-square fa-3x fa-fw"></i>
+                                </a>
+                            </li>
+
+                            <li class="list-inline-item mr-3">
+                                <a href="#">
+                                    <i class="fab fa-github fa-3x fa-fw"></i>
+                                </a>
+                            </li>
+                        </ul>
+
+                        <p class="text-muted small mb-4 mb-lg-0"> &copy; Abayomi Balogun 2022</p>
+                    </div>
+                </div>
+            </div>
+          </footer>
+
+        </section>
 </body>
 </html>
