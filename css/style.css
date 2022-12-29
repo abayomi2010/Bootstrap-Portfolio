@@ -18,3 +18,8 @@ body{
 }
 
 
+@media screen and (max-width: 576px){
+    .jumb {
+        min-height: 850px !important;
+      }
+}
