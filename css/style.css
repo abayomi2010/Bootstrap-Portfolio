@@ -4,15 +4,17 @@ body{
 
 .name{
     display: block;
-    color: rgb(209, 129, 216);
+    color: #2c3450;
 }
 /* Jumbotron */
 
 .jumb{
     background-color: rgb(27, 26, 26) !important;
-    /* background: url("../images/picture-2.jpg");
+    background: url("../images/IMG_0635.jpg");
     background-repeat: no-repeat;
-    background-size: cover; */
+    background-size: cover;
+    min-height: 1700px !important;
+    color: #f5f5f5 !important;
 }
 
 
