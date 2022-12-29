@@ -10,7 +10,7 @@ The site has a navigation menu at the top, a hero section, work section and an A
 
 
 ### Deployed Link
-Link to the deployed [apllication](https://abayomi2010.github.io/Bootstrap-Portfolio/)
+Link to the deployed [application](https://abayomi2010.github.io/Bootstrap-Portfolio/)
 
 
 ### Link to repository
