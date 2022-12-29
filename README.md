@@ -4,7 +4,7 @@ In this project, I built my portfolio layout using the Bootstrap CSS framework.
 The site has a navigation menu at the top, a hero section, work section and an About Me section.
 
 
-##Screenshot
+## Screenshot
 
 ![A screen shot of the webpage](./images/screencapture-abayomi2010-github-io-Bootstrap-Portfolio-2022-12-29-13_47_01.png)
 
